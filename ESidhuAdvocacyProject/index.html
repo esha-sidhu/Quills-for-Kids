@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/CBE_logo.jpg">
+    <title> Quills for Kids | Calligraphy By Esha </title> <!-- the content here will only show in the tab and in the metadata about the page -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- uncomment this block of code so that you can add at least two CSS declarations  
+    <style>
+        body {}
+        h1   {}
+        p    {}
+        .important {} <- this will require you to declare a class="important" in one of your HTML elements
+        #interesting {} <- this will require you to declare a id="interesting" in one of your HTML elements
+    </style>
+    -->
+</head>
+
+<body>
+
+<!-- Part 1: Navbar Starter Code -->
+    
+<div class="navbar">
+  <ul>
+    <li><a href="#"> Home </a></li>
+    <li><a href="#about"> About </a></li>
+    <li><a href="#impact-and-engagement"> Impact and Engagement </a></li>
+    <li><a href="https://calligraphybyesha.ck.page/links"> Shop </a></li>
+    <li><a href="https://venmo.com/"> Donate </a></li>
+    <li><button id="theme-button">Toggle Dark Mode</button></li>
+    <li><button id="reduce-motion-button">Reduce Motion</button></li>
+    <!-- Stretch Challenge: Drop Down -->
+  </ul>
+</div>
+
+  
+<!-- Part 2: Flexbox Layout Stater Code -->
+
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+
+
+    <!--- Headings --->
+    <div class="header-container revealable">
+      <div id="header-img">
+        <img  /> <!-- if you want to add an image, use this tag and link to the actual image location in your project with the src attribute -->
+      </div>
+      <div>
+        <center>
+        <h1> Quills for Kids </h1>
+        <h3> Support spreading joy to hospital patients while supporting a small business! </h3>
+        <div class="header-button">
+          <button type="button" onclick="window.location.href='https://calligraphybyesha.ck.page/links';"> Shop </button>
+          <button type="button" onclick="window.location.href='https://venmo.com/';"> Donate </button>
+        </div>
+        </center>
+      </div>
+    </div>
+
+
+    <!--- About --->
+    <div id="about" class="revealable">
+      <h2> About Quills for Kids </h2>
+      <p> Quills for Kids is a movement by Calligraphy By Esha that aims 
+        to spread joy to hospital patients by gifting them cards of 
+        support and encouragement.
+      </p>
+      <p> For every card that is bought through the Calligraphy By Esha 
+        shop, one card is sent to hospital patients in the community. If 
+        you would rather donate without purchasing from the shop, there 
+        is an option to donate directly to our cause, and the money will 
+        be used to purchase supplies for the cards, without first needing 
+        to purchase a card from the shop.
+      </p>
+      <p> This movement is aimed to spread joy to what can otherwise be a 
+        scary, nerve-wracking, and/or painful experience. The core value 
+        of Calligraphy By Esha is to spread joy to the community, so this 
+        movement is a natural next step.
+      </p>
+    </div>
+
+
+    <!--- Data --->
+    <!--
+    <h4>Data about my topic</h4>
+    <img src="" />
+    <h5>Add some charts + captions that illustrate my topic and why it is a problem </h5>
+
+    <ul>
+        <li> less than 15%</li>
+        <li> 15%-25%</li>
+        <li> 25%-35%</li>
+        <li> 35%-45%</li>
+        <li> >45%</li>
+    </ul>
+    -->
+  
+    <!--- Impact --->
+    <div id="impact-and-engagement">
+      <div class="revealable">
+      <h2>Impact and Engagement</h2>
+      </div>
+
+      <div class="revealable">
+      <img style="margin-left: 50px; margin-right: 50px;" src = "img/national-cancer-institute-yg1Zayn0Few-unsplash-cropped.jpg" height="600"/>
+      <h4> Meet Sara L </h4>
+      <p> She says that as a cancer patient, things were very rough for her initially in her stay. The cards donated by Quills for Kids brightened her stay.
+      </p>
+      </div>
+
+      <div class="revealable">
+      <img style="margin-left: 50px; margin-right: 50px;" src = "img/alexander-grey-iNlgy1WkfJA-unsplash.jpg" height="600"/>
+      <h4> Meet Alex K </h4>
+      <p> Alex had an accident and had to stay for a prolonged time in the hospital due to complications. They say that the positive messages from the cards from Quills for Kids made them stay more positive.
+      </p>
+      </div>
+
+      <div class="revealable">
+      <img style="margin-left: 50px; margin-right: 50px;" src = "img/national-cancer-institute-qgKF2QkwReU-unsplash.jpg" height="600"/>
+      <h4> Meet Clara M </h4>
+      <p> Clara had a rough time with chemotherapy, and she was having a rough time during her stay. Receiving these cards from Quills for Kids brightened her stay and gave her a more positive outlook.
+      </p>
+      </div>
+    </div>
+
+
+    <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+    <!-- <h2>Recent News</h2> -->
+
+    <a class=""
+        href="">
+        <article>
+            <h4></h4>
+            <p style="font-family: sans-serif;"></p>
+        </article>
+    </a>
+
+
+    <div class="petition revealable" id="petition">
+      <h2> Sign Our Petition </h2>
+      <div class="petition-container">
+
+        <div class="petition-para">
+          <p> Sign this petition to increase funds for hospitals to increase funding for activities to engage the kids during their stay. There are some grants dedicated to this, and some non-profit organizations who also are trying to collect funds to donate and create grants to fund activities for kids while staying in the hospital.</p>
+          <p>This is a topic important to Quills for Kids, so we decided to start a petition to get more funding towards fun and stress-relieving activities for kids during their hospital stay, since many activities are not engaging to kids, and the ones that are come from volunteers. </p>
+
+          <!--- Sign Petition Form --->
+          <form id="sign-petition" title="sign-petition" style="margin-left: 50px; margin-right: 50px;>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country"><br><br>
+            <label for="country">Email:</label><br>
+            <input type="text" id="email" name="email"><br><br><br>
+          </form>
+
+          <!--- Sign Now Button --->
+          <button style="margin-left: 50px; margin-right: 50px; margin-bottom: 7.5%;" id="sign-now-button">Sign Now</button>
+        </div>
+
+        <div class="signatures">
+          <p>🖊️ Chris T from Brooklyn, United States supports this.</p>
+          <p>🖊️ Amy L from Queens, United States supports this.</p>
+          <p>🖊️ Teresa C from Harlem, United States supports this.</p>
+          <p>🖊️ Damon G from Phoenix, United States supports this.</p>
+          <p>🖊️ Gavin L from Los Angeles, United States supports this.</p>
+          <p>🖊️ Claire K from Austin, United States supports this.</p>
+          <p>🖊️ Amanda G from Charlotte, United States supports this.</p>
+          <p>🖊️ Holly A from Glendale, United States supports this.</p>
+          <p>🖊️ Don F from Houston, United States supports this.</p>
+          <p>🖊️ Alvin M from Seattle, United States supports this.</p>
+          <p>🖊️ Jane P from Chicago, United States supports this.</p>
+          <p>🖊️ Simon J from Portland, United States supports this.</p>
+          <p>🖊️ Pansy I from Denver, United States supports this.</p>
+          <p>🖊️ Kiana M from Fresno, United States supports this.</p>
+          <p id="counter">✨ 14 people have signed this petition and support this cause.</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <h1 id="thanks-modal-content">Thank you for your support!</h1>
+
+        <!-- Add a button here if needed (stretch feature) -->
+        <button type="button" id="modal-button">Close</button>
+      </div>
+
+      <!-- Add an image here -->
+      <img id="modal-image" src="img/kushagra-kevat-wrxO61Npl58-unsplash.jpg" width="390" height="260" alt="Thank You Image">
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://calligraphybyesha.ck.page/links"> Calligraphy By Esha </a>
+    <p></p>
+    <a href="https://www.etsy.com/shop/CalligraphyByEsha"> Shop </a>
+  </div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
